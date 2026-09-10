@@ -331,6 +331,7 @@ The dashboard provides a structured view of the Moroccan non-life insurance mark
 
 The automobile branch receives particular attention because of its significant contribution to the overall non-life insurance market.
 
+---
 ## 🚀 Potential Future Improvements
 
 The project could be extended with additional datasets to enable:
