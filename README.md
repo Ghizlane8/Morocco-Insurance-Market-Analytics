@@ -16,7 +16,7 @@
 The objective is to transform publicly available insurance data into a clear and interactive analytical dashboard that helps understand:
 
 - the evolution of insurance premiums;
-- the evolution of benefits and claims-related expenses;
+- the evolution of benefits and related expenses;
 - the contribution of each insurance branch;
 - the evolution of key technical ratios;
 - the position of the automobile insurance branch;
@@ -34,7 +34,7 @@ Based on the 2022–2024 market data:
 - Total non-life insurance premiums increased from **MAD 29.1 billion in 2022** to **MAD 32.5 billion in 2024**.
 - The automobile branch (`Véhicules terrestres à moteur`) generated **MAD 15.2 billion in premiums in 2024**.
 - Automobile insurance represented approximately **46.7% of total non-life premiums in 2024**.
-- Total benefits paid reached **MAD 20.9 billion in 2024**.
+- Total benefits and expenses paid reached **MAD 20.9 billion in 2024**.
 - The dashboard also tracks the evolution of benefits/premiums and charges/premiums ratios.
   
 ---
@@ -203,7 +203,7 @@ The source datasets were transformed using **Power Query**.
 
 The main preparation steps were:
 
-1. Import the ACAPS datasets.
+1. Import the three Morocco Open Data datasets.
 2. Remove total rows where required.
 3. Promote the correct headers.
 4. Standardize column names.
