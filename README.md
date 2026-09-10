@@ -294,27 +294,64 @@ The objective was to combine business readability with a professional Power BI p
 
 ---
 
-## 📚 Data Sources
+## 📊 Data Sources
 
-The analysis is based on publicly available Moroccan insurance market data provided through **Morocco Open Data**.
+This project uses three official datasets from the Moroccan Open Data platform (`data.gov.ma`), covering the non-life insurance market for 2022–2024.
 
-**Morocco Open Data — Premiums**
+### 🇲🇦 Morocco Open Data — Premiums
 
-***Évolution des primes émises en assurance non-vie — 2022–2024***
+**Évolution des primes émises en assurance non-vie — 2022–2024**
 
-https://www.data.gov.ma/data/dataset/evolution-des-primes-emises-en-assurance-non-vie
+Source: Morocco Open Data
 
-**Morocco Open Data — Benefits**
+[View dataset](https://www.data.gov.ma/data/dataset/evolution-des-primes-emises-en-assurance-non-vie)
 
-***Évolution des prestations et frais payés en assurance non-vie — 2022–2024***
+---
 
-https://www.data.gov.ma/data/dataset/evolution-des-prestations-et-frais-payes-en-assurance-non-vie
+### 🇲🇦 Morocco Open Data — Benefits
 
-**Morocco Open Data — Charges**
+**Évolution des prestations et frais payés en assurance non-vie — 2022–2024**
 
-***Évolution des charges de prestations en assurance non-vie — 2022–2024***
+Source: Morocco Open Data
 
-https://www.data.gov.ma/data/dataset/evolution-des-charges-de-prestations-en-assurance-non-vie
+[View dataset](https://www.data.gov.ma/data/dataset/evolution-des-prestations-et-frais-payes-en-assurance-non-vie)
+
+---
+
+### 🇲🇦 Morocco Open Data — Charges
+
+**Évolution des charges de prestations en assurance non-vie — 2022–2024**
+
+Source: Morocco Open Data
+
+[View dataset](https://www.data.gov.ma/data/dataset/evolution-des-charges-de-prestations-en-assurance-non-vie)
+
+---
+
+### Data Coverage
+
+The three datasets provide aggregated market-level information by insurance branch for:
+
+- **2022**
+- **2023**
+- **2024**
+
+The analysis combines these datasets using:
+
+- **Insurance branch (`Branche`)**
+- **Year (`Année`)**
+
+The resulting analytical table contains:
+
+| Field | Description |
+|---|---|
+| `Branche` | Non-life insurance branch |
+| `Année` | Year |
+| `Primes` | Premiums issued |
+| `Prestations` | Benefits and expenses paid |
+| `Charges` | Benefits-related charges |
+
+> **Note:** The analysis is based exclusively on these three public datasets. No customer-level, policy-level, company-level, regional, or guarantee-level data is used.
 
 ---
 
@@ -330,6 +367,26 @@ The dashboard provides a structured view of the Moroccan non-life insurance mark
 - branches showing stronger growth dynamics.
 
 The automobile branch receives particular attention because of its significant contribution to the overall non-life insurance market.
+
+---
+
+## ⚠️ Limitations
+
+This project is based on aggregated public market data covering only three years (2022–2024).
+
+The available datasets do not provide:
+
+- Customer-level information
+- Individual policy data
+- Insurance company-level data
+- Regional or city-level breakdowns
+- Individual claim records
+- Guarantee-level breakdowns within the automobile branch
+
+Therefore, the dashboard focuses on **market-level analysis by insurance branch and year**.
+
+The automobile analysis is based on the aggregate branch **“Véhicules terrestres à moteur”** and does not provide a breakdown by individual guarantees such as RC, dommages or assistance.
+
 
 ---
 ## 🚀 Potential Future Improvements
