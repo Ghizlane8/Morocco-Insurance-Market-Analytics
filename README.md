@@ -370,6 +370,16 @@ Morocco-Insurance-Market-Analytics/
 
 **Ghizlane Baali**
 
-Data Analytics | Power BI | Python | DAX | Power Query
+Data Analytics | Power BI | DAX | Power Query | Python
 
-*⭐ If you find this project interesting, feel free to explore the dashboard and the analytical approach.*
+📧 **Email:** [baali.ghizlane2@gmail.com](mailto:baali.ghizlane2@gmail.com)
+
+💼 **LinkedIn:** [linkedin.com/in/ghizlane-baali-a42505267](https://www.linkedin.com/in/ghizlane-baali-a42505267/)
+
+---
+
+<div align="center">
+
+⭐ **If you find this project interesting, feel free to explore the dashboard and the analytical approach.**
+
+</div>
