@@ -5,6 +5,7 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi)
 ![DAX](https://img.shields.io/badge/DAX-Measures-1E88E5?style=for-the-badge)
 ![Power Query](https://img.shields.io/badge/Power%20Query-ETL-217346?style=for-the-badge)
+![Data](https://img.shields.io/badge/Data-Morocco%20Open%20Data-0D6ABF?style=for-the-badge)
 
 ---
 
