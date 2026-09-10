@@ -5,7 +5,6 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi)
 ![DAX](https://img.shields.io/badge/DAX-Measures-1E88E5?style=for-the-badge)
 ![Power Query](https://img.shields.io/badge/Power%20Query-ETL-217346?style=for-the-badge)
-![Data](https://img.shields.io/badge/Data-ACAPS-0D6ABF?style=for-the-badge)
 
 ---
 
@@ -24,6 +23,19 @@ The objective is to transform publicly available insurance data into a clear and
 
 The project is designed as a **Data Analytics / Business Intelligence portfolio project**, combining data preparation, DAX modeling, visualization and business interpretation.
 
+
+---
+
+## 🔎 Key Findings
+
+Based on the 2022–2024 market data:
+
+- Total non-life insurance premiums increased from **MAD 29.1 billion in 2022** to **MAD 32.5 billion in 2024**.
+- The automobile branch (`Véhicules terrestres à moteur`) generated **MAD 15.2 billion in premiums in 2024**.
+- Automobile insurance represented approximately **46.7% of total non-life premiums in 2024**.
+- Total benefits paid reached **MAD 20.9 billion in 2024**.
+- The dashboard also tracks the evolution of benefits/premiums and charges/premiums ratios.
+  
 ---
 
 ## 🎯 Business Question
@@ -274,6 +286,7 @@ Used for:
 - dynamic selections;
 - automobile analysis.
 
+---
 
 ## 🎨 Dashboard Design
 
@@ -420,6 +433,21 @@ Morocco-Insurance-Market-Analytics/
 │
 └── README.md
 ```
+
+---
+
+## 🧩 What I Built
+
+This project demonstrates the ability to:
+
+- Build an analytical data model from multiple datasets
+- Perform ETL transformations with Power Query
+- Create reusable DAX measures
+- Implement dynamic KPI calculations
+- Build dynamic Top N analysis
+- Calculate market shares and technical ratios
+- Design interactive Power BI dashboards
+- Translate quantitative results into business insights
 
 ---
 
